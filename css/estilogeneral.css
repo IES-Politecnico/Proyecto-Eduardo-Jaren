@@ -25,3 +25,16 @@ table {
     border: 1px solid white;
 
   }
+  .Centrar {
+    text-align: center;
+  }
+
+  #Noticias {
+    color: darkgray;
+  }
+  #Filtraciones {
+    color: darkgray;
+  }
+  #Novedades {
+    color: darkgray;
+  }
