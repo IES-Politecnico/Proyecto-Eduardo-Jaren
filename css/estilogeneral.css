@@ -42,3 +42,23 @@ td {
   background-color: rgb(48, 48, 48);
 
 }
+.Sección1 {
+
+  background-color: rgb(0, 0, 55);
+  text-align: center;
+  
+}
+
+.Sección2 {
+
+  background-color: rgb(0, 55, 5);
+  text-align: center;
+  
+}
+
+.Sección3 {
+
+  background-color: rgb(55, 0, 0);
+  text-align: center;
+  
+}
