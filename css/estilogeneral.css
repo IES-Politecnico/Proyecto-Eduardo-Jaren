@@ -46,6 +46,7 @@ td {
 
   background-color: rgb(0, 0, 55);
   text-align: center;
+  padding: 10px;
   
 }
 
@@ -53,6 +54,7 @@ td {
 
   background-color: rgb(0, 55, 5);
   text-align: center;
+  padding: 10px;
   
 }
 
@@ -60,5 +62,6 @@ td {
 
   background-color: rgb(55, 0, 0);
   text-align: center;
+  padding: 10px;
   
 }
