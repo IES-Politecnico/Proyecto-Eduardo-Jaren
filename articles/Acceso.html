@@ -15,7 +15,53 @@
 </head>
 
 <body style="background: url(https://i.vimeocdn.com/video/989794741_640x360.jpg);">
-
+    <fieldset>
+        <legend>Datos personales</legend>
+        <form method="get">
+            <p>Nombre: <input type="text" name="nombre" maxlength="25" size="40"></p>
+            <p>Primer Apellido: <input type="text" name="apellidos" maxlength="25" size="40"> Segundo Apellido: <input
+                    type="text" name="segundoapellido" maxlength="25" size="40"></p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+            <p>Dirección: <input type="text" maxlength="50" size="40"></p>
+            <p>Localidad: <input type="text" name="localidad"> Provincia: <select name="menu">
+                    <option>Almería</option>
+                    <option>Cádiz</option>
+                    <option>Córdoba</option>
+                    <option>Granada</option>
+                    <option>Huelva</option>
+                    <option>Jaén</option>
+                    <option>Málaga</option>
+                    <option>Sevilla</option>
+                </select></p>
+            <p>Teléfono: <input type="number" minlength="9" maxlength="75" name="direccion" size="40"> Correo
+                electrónico: <input type="email" name="correo" size="40" required>
+            </p>
+            <p>Página principal: <input type="url" name="direccion" size="40"></p>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Hábitos</legend>
+        <p>Número de horas que duermes al día (min 3, max 12) <input type="number" name="numero" step="any"
+                minlength="3" maxlength="12"></p>
+        <p>Color favorito: <input type="color" name="colorElegido" value="#00ff00"></p>
+        <p>Tipo de música favorita:
+            <br>
+            <input type="radio" name="boton" value="1" checked>Rock<br>
+            <input type="radio" name="boton" value="2">Pop<br>
+            <input type="radio" name="boton" value="3">Flamenco<br>
+            <input type="radio" name="boton" value="4">Electrónica<br>
+        </p>
+    </fieldset>
+    <input type="checkbox" name="casilla" checked>Deseo recibir información por correo electrónico<br>
+    <input type="checkbox" name="casilla" checked>Deseo recibir información por SMS<br>
+    <input type="checkbox" name="casilla">Declaro haber leido y aceptar las condiciones generales y la normativa sobre
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </p>
+    <div class="Centrar">
+        <a href="../index.html"><img src="../buttons/Volver_Atrás.png" alt="Volver atrás"></a>
+    </div>
 
 </body>
 
